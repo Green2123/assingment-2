@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,300&display=swap');
+
+.nav-manu{
+ width: 1920px;
+height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo{
+  display: flex;
+  width: 50%;
+  font-size: 30px;
+  margin-left: 20px;
+  align-items: center;
+  margin-left: 240px;
+}
+.nav-logo h1{
+  margin-left: 30px;
+}
+.nav-logo img{
+  width: 86.041px;
+height: 40px;
+}
+.nav-side-logo{
+  width: 50%;
+  margin-right: 180px;
+}
+.nav-side-logo ul{
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  margin-left: 170px;
+  margin-top: 45px;
+  font-size: 20px;
+ 
+}
+.nav-youtub-tiktok{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+background: rgba(20, 5, 40, 0.15);
+width: 262px;
+height: 56px;
+justify-content: space-around;
+}

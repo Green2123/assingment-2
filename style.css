@@ -204,10 +204,6 @@ line-height: normal;
 }
 .banner4-text{
   position: relative;
-  margin-left: 200px;
-  border: 2px solid gold;
-  width: 500px;
-  height: 500px;
 }
 
 .banner4-text h1{
@@ -219,9 +215,13 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.banner4-img{
+  gap: -20px;
+}
 .talk {
   position: relative;
-  
+  margin-top: -100px;
+  margin-left: -100px;
 }
 /*Banner Part 5 */
 
@@ -318,7 +318,7 @@ flex-shrink: 0;
 /*Footer Part 7*/
 
 .footer{
-  width: 1920px;
+  
 height: 636px;
 flex-shrink: 0;
 background: #0B0223;

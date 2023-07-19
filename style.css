@@ -11,6 +11,7 @@
 height: 130px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .nav-logo{
   display: flex;
@@ -223,6 +224,9 @@ background-clip: text;
   margin-top: -100px;
   margin-left: -100px;
 }
+.img:hover{
+
+}
 /*Banner Part 5 */
 
 .banner-part-5{
@@ -363,4 +367,13 @@ position: relative;
 }
 .span{
   color: #FF42A5, #FF42A5;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-manu{
+    flex-direction: column;
+  }
+  .banner2 img{
+width: 100%;
+  }
 }
